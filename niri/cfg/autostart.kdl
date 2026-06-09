@@ -1,0 +1,6 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+    spawn-sh-at-startup "dbus-update-activation-environment --systemd GTK_IM_MODULE QT_IM_MODULE XMODIFIERS"
+    spawn-sh-at-startup "qs -c noctalia-shell"
+
