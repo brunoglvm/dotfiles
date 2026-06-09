@@ -1,0 +1,18 @@
+[Default Applications]
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+text/html=code.desktop
+inode/directory=org.gnome.Nautilus.desktop
+image/png=qimgv.desktop
+image/jpeg=qimgv.desktop
+application/pdf=org.gnome.Papers.desktop
+video/mp4=vlc.desktop
+text/plain=org.gnome.TextEditor.desktop
+image/webp=qimgv.desktop
+
+[Added Associations]
+text/html=code.desktop;
+image/png=qimgv.desktop;
+image/jpeg=qimgv.desktop;
+text/plain=org.gnome.TextEditor.desktop;
+image/webp=qimgv.desktop;
