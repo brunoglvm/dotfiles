@@ -21,7 +21,7 @@ input {
 
 
 
-        accel-speed -1.0
+        accel-speed 3.191891195797325e-16
 
         accel-profile "flat"
     }

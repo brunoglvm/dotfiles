@@ -9,6 +9,7 @@ application/pdf=org.gnome.Papers.desktop
 video/mp4=vlc.desktop
 text/plain=org.gnome.TextEditor.desktop
 image/webp=qimgv.desktop
+x-scheme-handler/discord=vesktop.desktop
 
 [Added Associations]
 text/html=code.desktop;

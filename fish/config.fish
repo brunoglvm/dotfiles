@@ -3,6 +3,9 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 # bat
 set -Ux BAT_THEME "TwoDark"
 
+# fnm (Node version manager)
+fnm env --use-on-cd | source
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
     alias projects="cd ~/Projects"
@@ -23,9 +26,3 @@ if status is-interactive
     # set SPACEFISH_PROMPT_ADD_NEWLINE false
     starship init fish | source
 end
-
-
-
-
-
-

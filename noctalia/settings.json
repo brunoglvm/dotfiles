@@ -39,11 +39,14 @@
             "org.gnome.TextEditor",
             "vesktop",
             "com.rtosta.zapzap",
-            "org.onlyoffice.desktopeditors"
+            "org.onlyoffice.desktopeditors",
+            "io.dbeaver.DBeaver",
+            "com.obsproject.Studio",
+            "android-studio"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
-        "showCategories": true,
+        "showCategories": false,
         "showIconBackground": false,
         "sortByMostUsed": true,
         "terminalCommand": "alacritty -e",
@@ -358,12 +361,16 @@
             "chromium",
             "kitty",
             "code",
-            "virtualbox",
             "com.usebruno.Bruno",
+            "io.dbeaver.DBeaver",
+            "virtualbox",
             "obsidian",
-            "com.spotify.Client",
+            "org.gnome.TextEditor",
+            "org.gnome.Calculator",
             "io.github.focustimerhq.FocusTimer",
             "com.rafaelmardojai.Blanket",
+            "com.spotify.Client",
+            "com.slack.Slack",
             "com.rtosta.zapzap"
         ],
         "pinnedStatic": false,
@@ -664,7 +671,7 @@
         "translucentWidgets": false
     },
     "wallpaper": {
-        "automationEnabled": false,
+        "automationEnabled": true,
         "directory": "/home/brunoglvm/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
@@ -672,7 +679,7 @@
         ],
         "fillColor": "#000000",
         "fillMode": "crop",
-        "hideWallpaperFilenames": false,
+        "hideWallpaperFilenames": true,
         "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
         ],
@@ -680,7 +687,7 @@
         "overviewEnabled": false,
         "overviewTint": 0.6,
         "panelPosition": "follow_bar",
-        "randomIntervalSec": 7200,
+        "randomIntervalSec": 14400,
         "setWallpaperOnAllMonitors": true,
         "showHiddenFiles": false,
         "skipStartupTransition": false,
@@ -689,7 +696,7 @@
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
-            "fade"
+            "wipe"
         ],
         "useOriginalImages": false,
         "useSolidColor": false,
