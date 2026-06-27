@@ -6,6 +6,7 @@ input {
         xkb {
           layout "us"
           variant "intl"
+          options "compose:ralt"
         }
   
           numlock // Enable numlock on startup
