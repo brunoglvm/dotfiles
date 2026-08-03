@@ -20,7 +20,8 @@ overview {
         off
     }
 }
-output "HDMI-A-1" {
+
+output "DP-2" {
     mode "2560x1080@74.991"
 
     scale 1.0

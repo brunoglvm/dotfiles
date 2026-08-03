@@ -3,7 +3,13 @@
         clip-to-geometry true
 }
 
-     // if you use steam you will probably like these
+    // Floating Preview
+    window-rule {
+        match app-id="org.gnome.NautilusPreviewer"
+        open-floating true
+}
+
+    // Steam dialogs and auxiliary windows
     window-rule {
         match app-id="steam"
         exclude title=r"^[Ss]team$"
