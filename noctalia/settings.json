@@ -45,7 +45,8 @@
             "android-studio",
             "com.shellyorg.shelly",
             "com.github.AppManager",
-            "affinity"
+            "affinity",
+            "nm-connection-editor"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
@@ -180,7 +181,7 @@
                     "showDiskAvailable": false,
                     "showDiskUsage": false,
                     "showDiskUsageAsPercent": false,
-                    "showGpuTemp": false,
+                    "showGpuTemp": true,
                     "showLoadAverage": false,
                     "showMemoryAsPercent": true,
                     "showMemoryUsage": true,
@@ -191,6 +192,13 @@
                     "usePadding": false
                 },
                 {
+                    "defaultSettings": {
+                        "activeColor": "success",
+                        "iconColor": "none",
+                        "inactiveColor": "error",
+                        "refreshInterval": 5000,
+                        "statusState": "all"
+                    },
                     "id": "plugin:mini-docker"
                 },
                 {
@@ -645,7 +653,7 @@
         "diskAvailWarningThreshold": 20,
         "diskCriticalThreshold": 90,
         "diskWarningThreshold": 80,
-        "enableDgpuMonitoring": false,
+        "enableDgpuMonitoring": true,
         "externalMonitor": "resources || missioncenter || jdsystemmonitor || corestats || system-monitoring-center || gnome-system-monitor || plasma-systemmonitor || mate-system-monitor || ukui-system-monitor || deepin-system-monitor || pantheon-system-monitor",
         "gpuCriticalThreshold": 90,
         "gpuWarningThreshold": 80,

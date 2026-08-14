@@ -11,6 +11,8 @@ text/plain=org.gnome.TextEditor.desktop
 image/webp=qimgv.desktop
 x-scheme-handler/discord=vesktop.desktop
 application/zip=org.gnome.Nautilus.desktop
+application/vnd.rar=org.gnome.Nautilus.desktop
+text/markdown=code.desktop
 
 [Added Associations]
 text/html=code.desktop;
@@ -18,3 +20,4 @@ image/png=qimgv.desktop;
 image/jpeg=qimgv.desktop;
 text/plain=org.gnome.TextEditor.desktop;
 image/webp=qimgv.desktop;
+text/markdown=code.desktop;
