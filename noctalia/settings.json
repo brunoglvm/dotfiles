@@ -46,7 +46,8 @@
             "com.shellyorg.shelly",
             "com.github.AppManager",
             "affinity",
-            "nm-connection-editor"
+            "nm-connection-editor",
+            "org.gnome.SoundRecorder"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
@@ -217,6 +218,12 @@
                     "id": "NotificationHistory",
                     "showUnreadBadge": true,
                     "unreadBadgeColor": "primary"
+                },
+                {
+                    "displayMode": "alwaysHide",
+                    "iconColor": "none",
+                    "id": "Bluetooth",
+                    "textColor": "none"
                 },
                 {
                     "displayMode": "alwaysHide",
