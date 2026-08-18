@@ -47,7 +47,9 @@
             "com.github.AppManager",
             "affinity",
             "nm-connection-editor",
-            "org.gnome.SoundRecorder"
+            "org.gnome.SoundRecorder",
+            "hydralauncher",
+            "org.upscayl.Upscayl"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
@@ -241,10 +243,10 @@
                 {
                     "clockColor": "none",
                     "customFont": "SF Pro",
-                    "formatHorizontal": "HH:mm ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
+                    "formatHorizontal": "ddd MMM dd    hh:mm A",
+                    "formatVertical": "hh:mm A",
                     "id": "Clock",
-                    "tooltipFormat": "HH:mm ddd, MMM dd",
+                    "tooltipFormat": "ddd, MMM dd, yyyy hh:mm A",
                     "useCustomFont": false
                 }
             ]
@@ -408,9 +410,9 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/brunoglvm/.face",
+        "avatarImage": "/home/brunoglvm/.face/cow.jpg",
         "boxRadiusRatio": 1,
-        "clockFormat": "hh\\nmm",
+        "clockFormat": "hh\\nmm A",
         "clockStyle": "custom",
         "compactLockScreen": false,
         "dimmerOpacity": 0,
@@ -447,7 +449,7 @@
         "language": "",
         "lockOnSuspend": true,
         "lockScreenAnimations": false,
-        "lockScreenBlur": 0,
+        "lockScreenBlur": 0.4,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
         ],
@@ -494,7 +496,7 @@
         "suspendTimeout": 0
     },
     "location": {
-        "analogClockInCalendar": false,
+        "analogClockInCalendar": true,
         "autoLocate": false,
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
@@ -503,7 +505,7 @@
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
-        "use12hourFormat": false,
+        "use12hourFormat": true,
         "useFahrenheit": false,
         "weatherEnabled": true,
         "weatherShowEffects": true,

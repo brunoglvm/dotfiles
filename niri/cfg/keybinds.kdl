@@ -143,4 +143,5 @@ binds {
     Mod+Shift+Tab { focus-workspace-up; }
     Mod+V { spawn-sh "qs -c noctalia-shell ipc call plugin:clipboard toggle"; }
     Scroll_Lock { spawn "ydotool" "click" "0xC0"; }
+    Mod+Pause { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 }
