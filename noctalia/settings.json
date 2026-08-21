@@ -49,7 +49,9 @@
             "nm-connection-editor",
             "org.gnome.SoundRecorder",
             "hydralauncher",
-            "org.upscayl.Upscayl"
+            "org.upscayl.Upscayl",
+            "org.mozilla.Thunderbird",
+            "net.nokyan.Resources"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
@@ -395,7 +397,8 @@
             "com.rafaelmardojai.Blanket",
             "com.spotify.Client",
             "com.slack.Slack",
-            "com.rtosta.zapzap"
+            "com.rtosta.zapzap",
+            "org.mozilla.Thunderbird"
         ],
         "pinnedStatic": false,
         "position": "bottom",
@@ -518,7 +521,7 @@
         "bluetoothRssiPollIntervalMs": 60000,
         "bluetoothRssiPollingEnabled": false,
         "disableDiscoverability": false,
-        "networkPanelView": "wifi",
+        "networkPanelView": "ethernet",
         "wifiDetailsViewMode": "grid"
     },
     "nightLight": {

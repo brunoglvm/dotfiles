@@ -13,6 +13,10 @@ x-scheme-handler/discord=vesktop.desktop
 application/zip=org.gnome.Nautilus.desktop
 application/vnd.rar=org.gnome.Nautilus.desktop
 text/markdown=code.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-88JBU3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-88JBU3.desktop
+message/rfc822=userapp-Thunderbird-88JBU3.desktop
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-5E6EU3.desktop
 
 [Added Associations]
 text/html=code.desktop;
@@ -21,3 +25,7 @@ image/jpeg=qimgv.desktop;
 text/plain=org.gnome.TextEditor.desktop;
 image/webp=qimgv.desktop;
 text/markdown=code.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-88JBU3.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-88JBU3.desktop;
+message/rfc822=userapp-Thunderbird-88JBU3.desktop;
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-5E6EU3.desktop;
