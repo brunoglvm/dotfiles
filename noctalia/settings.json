@@ -51,7 +51,11 @@
             "hydralauncher",
             "org.upscayl.Upscayl",
             "org.mozilla.Thunderbird",
-            "net.nokyan.Resources"
+            "net.nokyan.Resources",
+            "com.libretro.RetroArch",
+            "net.lutris.Lutris",
+            "com.ranfdev.DistroShelf",
+            "debianbox-balena-etcher"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
