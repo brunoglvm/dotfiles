@@ -55,7 +55,9 @@
             "com.libretro.RetroArch",
             "net.lutris.Lutris",
             "com.ranfdev.DistroShelf",
-            "debianbox-balena-etcher"
+            "debianbox-balena-etcher",
+            "filezilla",
+            "com.microsoft.VSCode"
         ],
         "position": "follow_bar",
         "screenshotAnnotationTool": "",
@@ -158,12 +160,12 @@
                     "panelShowAlbumArt": true,
                     "scrollingMode": "hover",
                     "showAlbumArt": true,
-                    "showArtistFirst": false,
+                    "showArtistFirst": true,
                     "showProgressRing": true,
                     "showVisualizer": false,
                     "textColor": "none",
                     "useFixedWidth": true,
-                    "visualizerType": "linear"
+                    "visualizerType": "wave"
                 }
             ],
             "right": [
@@ -388,8 +390,8 @@
             "org.gnome.Nautilus",
             "firefox",
             "chromium",
+            "com.microsoft.VSCode",
             "kitty",
-            "code",
             "com.usebruno.Bruno",
             "io.dbeaver.DBeaver",
             "virtualbox",
@@ -399,10 +401,10 @@
             "org.gnome.Calculator",
             "io.github.focustimerhq.FocusTimer",
             "com.rafaelmardojai.Blanket",
-            "com.spotify.Client",
             "com.slack.Slack",
             "com.rtosta.zapzap",
-            "org.mozilla.Thunderbird"
+            "org.mozilla.Thunderbird",
+            "com.spotify.Client"
         ],
         "pinnedStatic": false,
         "position": "bottom",
