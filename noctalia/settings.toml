@@ -1,0 +1,321 @@
+config_version = 14
+
+[bar.default]
+background_opacity = 0.69999998435378075
+center = []
+compositor_blur = false
+end = [
+    "tray",
+    "cpu",
+    "temp",
+    "sysmon",
+    "ram",
+    "mini-docker",
+    "nightlight",
+    "caffeine",
+    "notifications",
+    "bluetooth",
+    "network",
+    "volume",
+    "clock"
+]
+font_family = "SF Pro Display"
+margin_ends = 0
+panel_overlap = 0
+radius = 0
+radius_bottom_left = 18
+radius_bottom_right = 18
+radius_top_left = 0
+radius_top_right = 0
+shadow = false
+start = [ "control-center", "workspaces", "media" ]
+widget_spacing = 12
+
+[desktop_widgets]
+enabled = false
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[dock]
+background_opacity = 0.69999998435378075
+border_width = 0.5
+concave_edge_corners = false
+cross_axis_padding = 4
+enabled = true
+icon_size = 46
+item_spacing = 0
+launcher_position = "start"
+magnification_scale = 1.2500000037252903
+main_axis_padding = 8
+margin_edge = 8
+pinned = [
+    "org.gnome.Nautilus",
+    "firefox",
+    "chromium",
+    "kitty",
+    "com.microsoft.VSCode",
+    "com.usebruno.Bruno",
+    "io.dbeaver.DBeaver",
+    "virtualbox",
+    "affinity",
+    "obsidian",
+    "org.gnome.TextEditor",
+    "org.gnome.Calculator",
+    "io.github.focustimerhq.FocusTimer",
+    "com.rafaelmardojai.Blanket",
+    "com.spotify.Client",
+    "com.slack.Slack",
+    "org.mozilla.Thunderbird",
+    "com.rtosta.zapzap"
+]
+reserve_space = false
+shadow = false
+show_dots = true
+show_instance_count = false
+smart_auto_hide = true
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = true
+    timeout = 900.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = false
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = true
+    timeout = 600.0
+
+[location]
+address = "Salvador, Brazil"
+
+[lockscreen]
+blur_intensity = 0.39999999105930328
+edge_smoothness = 0.29999999329447746
+transition = [ "wipe" ]
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@DP-2" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 898.0
+    output = "DP-2"
+    placement_height = 1080.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[nightlight]
+enabled = true
+force = true
+temperature_night = 5600
+
+[osd]
+background_opacity = 0.69999998435378075
+border_width = 0.5
+position = "top_right"
+
+    [osd.kinds]
+    lock_keys = false
+    media = false
+
+[plugin_settings."davinci13/containers"]
+panel_placement = "floating"
+show_stopped = true
+view_mode = "cards"
+
+[plugins]
+enabled = [ "8bury/mini-docker" ]
+
+[shell]
+avatar_path = "~/.face/cow.jpg"
+font_family = "SF Pro Display"
+lang = "en"
+popup_shadows = false
+
+    [shell.animation]
+    speed = 0.80000001192092896
+
+    [shell.launcher]
+    pinned = [
+        "chromium",
+        "kitty",
+        "com.microsoft.VSCode",
+        "com.usebruno.Bruno",
+        "io.dbeaver.DBeaver",
+        "affinity",
+        "org.gnome.TextEditor",
+        "filezilla",
+        "debianbox-balena-etcher",
+        "com.ranfdev.DistroShelf",
+        "net.lutris.Lutris",
+        "com.libretro.RetroArch",
+        "net.nokyan.Resources",
+        "org.mozilla.Thunderbird",
+        "org.upscayl.Upscayl",
+        "hydralauncher",
+        "org.gnome.SoundRecorder",
+        "nm-connection-editor",
+        "com.github.AppManager",
+        "com.shellyorg.shelly",
+        "android-studio",
+        "com.obsproject.Studio",
+        "org.onlyoffice.desktopeditors",
+        "com.rtosta.zapzap",
+        "vesktop",
+        "io.github.focustimerhq.FocusTimer",
+        "code",
+        "org.gnome.DejaDup",
+        "org.gnome.Calculator",
+        "one.naiara.Kuychi",
+        "obsidian",
+        "com.slack.Slack",
+        "com.rafaelmardojai.Blanket",
+        "org.gnome.Nautilus",
+        "virtualbox",
+        "firefox",
+        "steam",
+        "com.spotify.Client",
+        "com.heroicgameslauncher.hgl"
+    ]
+    sort_by_usage = false
+
+    [shell.panel]
+    polkit_placement = "attached"
+    shadow = false
+    transparency_mode = "soft"
+
+[system.monitor]
+cpu_poll_seconds = 5
+memory_poll_seconds = 5
+network_poll_seconds = 5
+
+[theme]
+builtin = "Ayu"
+community_palette = "Creamy Forest"
+mode = "dark"
+shell_mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "muted"
+
+    [theme.templates]
+    enable_builtin_templates = false
+    enable_community_templates = false
+
+[wallpaper]
+directory = "~/Pictures/Wallpapers"
+transition = [ "disc" ]
+transition_on_startup = true
+
+    [wallpaper.automation]
+    enabled = true
+    interval_seconds = 14400
+
+    [wallpaper.default]
+    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+
+    [wallpaper.last]
+    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+
+    [wallpaper.monitors.DP-2]
+    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+
+[widget.active_window]
+display = "text_only"
+
+[widget.brightness]
+show_label = false
+show_when_unavailable = true
+
+[widget.clipboard]
+enabled = false
+
+[widget.clock]
+format = "{:%a %b %d    %I:%M %p}"
+
+[widget.control-center]
+color = "primary"
+scale = 1.1500000000000001
+
+[widget.cpu]
+show_value = false
+
+[widget.media]
+art_size = 18
+artist_first = true
+max_length = 280
+title_scroll = "on_hover"
+
+[widget.mini-docker]
+type = "8bury/mini-docker:mini-docker"
+
+[widget.network]
+show_label = false
+
+[widget.nightlight]
+capsule = true
+capsule_border_width = 0.0
+capsule_fill = "primary"
+capsule_foreground = "on_primary"
+capsule_radius = "auto"
+
+[widget.ram]
+show_value = false
+
+[widget.sysmon]
+show_value = false
+stat = "gpu_usage"
+
+[widget.temp]
+show_value = false
+
+[widget.tray]
+color = "primary"
+drawer = true
+
+[widget.volume]
+show_label = false
+
+[widget.workspaces]
+change_color_on_hover = false
+pill_scale = 0.70000000000000007
+show_labels = false

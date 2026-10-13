@@ -27,4 +27,6 @@ input {
         accel-profile "flat"
     }
     workspace-auto-back-and-forth // Enable workspace back & forth switching
+
+    trackpoint
 }
