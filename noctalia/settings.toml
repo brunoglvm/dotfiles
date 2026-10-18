@@ -3,7 +3,6 @@ config_version = 14
 [bar.default]
 background_opacity = 0.69999998435378075
 center = []
-compositor_blur = false
 end = [
     "tray",
     "cpu",
@@ -163,13 +162,21 @@ panel_placement = "floating"
 show_stopped = true
 view_mode = "cards"
 
+[plugin_settings."thepunkoff/pomodoro"]
+long-break-duration = 8
+panel_position = "center"
+use-bundled-alarm-sound = true
+work-duration = 30
+
 [plugins]
-enabled = [ "8bury/mini-docker" ]
+enabled = [ "8bury/mini-docker", "thepunkoff/pomodoro" ]
 
 [shell]
 avatar_path = "~/.face/cow.jpg"
+clipboard_auto_paste = "off"
 font_family = "SF Pro Display"
 lang = "en"
+polkit_agent = true
 popup_shadows = false
 
     [shell.animation]
@@ -202,7 +209,6 @@ popup_shadows = false
         "org.onlyoffice.desktopeditors",
         "com.rtosta.zapzap",
         "vesktop",
-        "io.github.focustimerhq.FocusTimer",
         "code",
         "org.gnome.DejaDup",
         "org.gnome.Calculator",
@@ -215,7 +221,8 @@ popup_shadows = false
         "firefox",
         "steam",
         "com.spotify.Client",
-        "com.heroicgameslauncher.hgl"
+        "com.heroicgameslauncher.hgl",
+        "org.gnome.Software"
     ]
     sort_by_usage = false
 
@@ -251,13 +258,13 @@ transition_on_startup = true
     interval_seconds = 14400
 
     [wallpaper.default]
-    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
 
     [wallpaper.last]
-    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
 
     [wallpaper.monitors.DP-2]
-    path = "/home/brunoglvm/Pictures/Wallpapers/d0b96b79b6207401.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
 
 [widget.active_window]
 display = "text_only"
