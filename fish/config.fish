@@ -29,3 +29,8 @@ if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
         starship init fish | source
     end
 end
+
+# Hermes Agent command
+fish_add_path "$HOME/.local/bin"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"

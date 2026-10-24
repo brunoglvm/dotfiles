@@ -1,4 +1,8 @@
-config_version = 14
+config_version = 15
+
+[audio]
+enable_screenshot_sounds = false
+enable_volume_sounds = false
 
 [bar.default]
 background_opacity = 0.69999998435378075
@@ -65,9 +69,9 @@ pinned = [
     "virtualbox",
     "affinity",
     "obsidian",
+    "ai.opencode.desktop",
+    "debianbox-kanri",
     "org.gnome.TextEditor",
-    "org.gnome.Calculator",
-    "io.github.focustimerhq.FocusTimer",
     "com.rafaelmardojai.Blanket",
     "com.spotify.Client",
     "com.slack.Slack",
@@ -183,6 +187,9 @@ popup_shadows = false
     speed = 0.80000001192092896
 
     [shell.launcher]
+    category_icons_only = true
+    default_view = "all"
+    layout = "simple"
     pinned = [
         "chromium",
         "kitty",
@@ -222,8 +229,18 @@ popup_shadows = false
         "steam",
         "com.spotify.Client",
         "com.heroicgameslauncher.hgl",
-        "org.gnome.Software"
+        "org.gnome.Software",
+        "org.gnome.DiskUtility",
+        "org.gnome.baobab",
+        "org.gnome.FileRoller",
+        "debianbox-ai.opencode.desktop",
+        "com.nousresearch.hermes",
+        "debianbox-kanri",
+        "ai.opencode.desktop",
+        "io.github.nirimod"
     ]
+    show_session_button = false
+    show_settings_button = false
     sort_by_usage = false
 
     [shell.panel]
@@ -258,13 +275,13 @@ transition_on_startup = true
     interval_seconds = 14400
 
     [wallpaper.default]
-    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
 
     [wallpaper.last]
-    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
 
     [wallpaper.monitors.DP-2]
-    path = "/home/brunoglvm/Pictures/Wallpapers/1396525.jpg"
+    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
 
 [widget.active_window]
 display = "text_only"
@@ -299,11 +316,11 @@ type = "8bury/mini-docker:mini-docker"
 show_label = false
 
 [widget.nightlight]
-capsule = true
 capsule_border_width = 0.0
 capsule_fill = "primary"
 capsule_foreground = "on_primary"
 capsule_radius = "auto"
+color = "on_surface"
 
 [widget.ram]
 show_value = false
