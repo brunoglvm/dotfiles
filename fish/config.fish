@@ -1,5 +1,13 @@
+# Hermes Agent
+fish_add_path "$HOME/.local/bin"
+
+# Homebrew
+if test -x /home/linuxbrew/.linuxbrew/bin/brew
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
+end
+
+# CachyOS
 if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
-    # CachyOS
     source /usr/share/cachyos-fish-config/cachyos-config.fish
 
     # bat
@@ -14,7 +22,7 @@ if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
         alias clrtrash="rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*"
         alias clear="printf '\033[H\033[2J\033[3J'"
         alias gitconfig="echo ~/.gitconfig && cat ~/.gitconfig"
-        alias ls="eza --color=always --long --git --icons=always --no-filesize --no-time --no-user --no-permissions"
+        alias ls="eza --color=always --icons=always"
         alias ll="eza --all --color=always --long --git --icons=always"
         alias cat="bat"
         alias xclip="xclip -selection clipboard"
@@ -29,8 +37,3 @@ if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
         starship init fish | source
     end
 end
-
-# Hermes Agent command
-fish_add_path "$HOME/.local/bin"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"

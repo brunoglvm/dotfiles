@@ -64,6 +64,7 @@ pinned = [
     "chromium",
     "kitty",
     "com.microsoft.VSCode",
+    "sublime_text",
     "com.usebruno.Bruno",
     "io.dbeaver.DBeaver",
     "virtualbox",
@@ -176,7 +177,7 @@ work-duration = 30
 enabled = [ "8bury/mini-docker", "thepunkoff/pomodoro" ]
 
 [shell]
-avatar_path = "~/.face/cow.jpg"
+avatar_path = "/home/brunoglvm/Pictures/Avatars/ab6761610000e5ebb54d0e01a7cb7b030f334a51.jpg"
 clipboard_auto_paste = "off"
 font_family = "SF Pro Display"
 lang = "en"
@@ -237,7 +238,19 @@ popup_shadows = false
         "com.nousresearch.hermes",
         "debianbox-kanri",
         "ai.opencode.desktop",
-        "io.github.nirimod"
+        "io.github.nirimod",
+        "com.vysp3r.ProtonPlus",
+        "mpv",
+        "vlc",
+        "shutter-encoder",
+        "vim",
+        "com.github.dynobo.normcap",
+        "ai.storyteller.photocraft",
+        "ai.storyteller.lightcraft",
+        "ai.storyteller.pdfcraft",
+        "ai.storyteller.filmcraft",
+        "sublime_text",
+        "org.gnome.Boxes"
     ]
     show_session_button = false
     show_settings_button = false
@@ -275,13 +288,13 @@ transition_on_startup = true
     interval_seconds = 14400
 
     [wallpaper.default]
-    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
+    path = "/home/brunoglvm/Pictures/Wallpapers/By_discord.ggProguildddd.png"
 
     [wallpaper.last]
-    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
+    path = "/home/brunoglvm/Pictures/Wallpapers/By_discord.ggProguildddd.png"
 
     [wallpaper.monitors.DP-2]
-    path = "/home/brunoglvm/Pictures/Wallpapers/75478258_p9.png"
+    path = "/home/brunoglvm/Pictures/Wallpapers/By_discord.ggProguildddd.png"
 
 [widget.active_window]
 display = "text_only"
